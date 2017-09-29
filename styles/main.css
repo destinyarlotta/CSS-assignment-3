@@ -5,7 +5,7 @@
 body {
   background: #b3dbe8;
   color: #000;
-  font-family: sans-serif; /*   add fonts   */
+  font-family: Lato, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 
@@ -47,7 +47,7 @@ aside {
 
 h1, h2 {
   margin: 0;
-  font-family: serif; /*   add fonts   */
+  font-family: Merriweather, Georgia, serif;
 }
 
 article h1 {
@@ -115,3 +115,16 @@ aside a:hover {
 
 
 /* put your media queries below */
+@media (max-width: 425px) {
+  body {background: #333;}
+    #container {margin: 0;}
+    article h1 {font-size: 2em;}
+    aside h2 {font-size: 1.7em;}
+  article {width: 100%;}
+  aside {clear: both;}
+  aside {width: auto;}
+  aside {margin: 0;}
+  img {display: none;}
+  #top-image-container p {display: none;}
+  #sidebar2 {margin: 0;}
+}
